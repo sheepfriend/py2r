@@ -23,6 +23,20 @@ def t(x):
 def solve(x):
 	return numpy.linalg.inv(x)
 
+def cumsum(x):
+	y=rep(0,x.size)
+	y[0]=x[0]
+	for i in range(1,x.size):
+		y[i]=y[i-1]+x[i]
+	return y
+	
+def cumprod(x):
+	y=rep(1,x.size)
+	y[0]=x[0]
+	for i in range(1,x.size):
+		y[i]=y[i-1]*x[i]
+	return y
+
 def cbind(a,b):
 	if a.ndim==1 and b.ndim==2:
 		result=array(0.,dim=c(a.size,1+b.shape[1]))
