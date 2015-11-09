@@ -1,5 +1,5 @@
 # py2r
-    usage: import * from numpy_to_r
+    usage: from numpy_to_r import *
     Transfer some functions from R to numpy&scipy 
     窝真的不习惯用python写以前R做的东西，于是写了这么个东西。。。
     所有的都是deep copy
