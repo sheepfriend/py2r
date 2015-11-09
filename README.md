@@ -42,3 +42,4 @@
         runif *(not unif family)
         lm(y,x)
             x could be matrix
+        numpy.sort本身就比R的功能强大所以不改啦，sort可以直接用 
