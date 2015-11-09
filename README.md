@@ -13,6 +13,8 @@
         cbind(a,b)
         t(mat)
         solve(mat)
+        cumsum(vec)
+        cumprod(vec)
         which(a,b,str)
             this is different from original function 'which' in R,
             usage: which(c(1,2,3),c(2,3,1),'<=') -> c(0,1)
