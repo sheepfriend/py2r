@@ -1,4 +1,5 @@
 # py2r
+    usage: import * from numpy_to_r
     Transfer some functions from R to numpy&scipy 
     窝真的不习惯用python写以前R做的东西，于是写了这么个东西。。。
     List of functions:
